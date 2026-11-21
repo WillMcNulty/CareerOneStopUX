@@ -184,6 +184,16 @@ Each row is a place where the artifacts conflict or are silent. "Proposed" is wh
 - **Open**: Will gave no item-by-item critique. The "Team critique" column of the discrepancy register is still empty and is the team's to fill in. Decision-sheet rows D2, D3, D6, D9, D10 and D14 to D18 were built as Claude proposed and have not been individually confirmed.
 - **Change**: none to the prototype.
 
+### 2026-11-20, 8:07 PM: site published
+
+- **Input**: prompt 10.
+- **Change**: GitHub Pages went live at https://willmcnulty.github.io/CareerOneStopUX/ after Claude pushed an empty `.nojekyll` file, which makes Pages serve the files as they are. No change to any screen.
+
+### 2026-11-20, about 8:20 PM: log exported for the team
+
+- **Input**: prompts 11 and 12.
+- **Change**: Claude first began copying this log into a Claude doc, then at Will's request converted it to a Word file (`P4-AI-design-log.docx`) for editing in Google Drive. The Word file is a copy of this log as of this entry; this file in the repository stays the original. No change to the prototype.
+
 ## Prompt record (Will's messages, verbatim, for the report appendix)
 
 AI agent: Claude Code (Anthropic), model Claude Fable 5.2 (`claude-fable-5-2`), in the Claude desktop app.
@@ -205,6 +215,9 @@ D13, The saved jobs should behave and look like the saved scholarships"
 7. (Pasted text of GitHub's new-repository form, no other words.) "1. eneral / Repository owner and name / Owner(required)* / Repository name* / CareerOneStopUX is available. / Great repository names are short and memorable. How about ? / Description11 / 350 characters / 2. 2 / Configuration"
 8. "Walkthrough first" (button reply to Claude's question: walkthrough and critique first, or changes to the four items built without asking).
 9. "Those are good, my team will give more robust critique"
+10. "Give me the link for pages, it says its on"
+11. "Give the design log as a doc"
+12. "Make it as a docx I can put into google drive for editing"
 
 ## Design artifacts provided to the agent
 
