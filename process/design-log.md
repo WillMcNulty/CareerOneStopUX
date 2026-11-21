@@ -177,6 +177,13 @@ Each row is a place where the artifacts conflict or are silent. "Proposed" is wh
 - **Not checked**: phone-width layout; keyboard-only use; any browser other than the preview's; the other nine fields for BT-2 were not walked through one by one (they are generated from the same twelve slots as Economics).
 - **Not built**: the phone filter drawer (image 13 panel 3c); the P3 report's "instant update" filter mode (D3); ZIP codes beyond the New York (100..) and Boston (021..) prefixes.
 
+### 2026-11-20, about 8:10 PM: Will's response to the first build
+
+- **Input**: prompts 8 and 9. Claude gave Will a six-stop walkthrough and asked for a keep / change / revert decision on X1, X2 and X4, and for his reading of D4, D5 and X10.
+- **Decision (Will)**: "Those are good, my team will give more robust critique". Claude reads this as: the first build, including X1, X2, X4 and X12 that were built without asking, stays as it is; no changes requested.
+- **Open**: Will gave no item-by-item critique. The "Team critique" column of the discrepancy register is still empty and is the team's to fill in. Decision-sheet rows D2, D3, D6, D9, D10 and D14 to D18 were built as Claude proposed and have not been individually confirmed.
+- **Change**: none to the prototype.
+
 ## Prompt record (Will's messages, verbatim, for the report appendix)
 
 AI agent: Claude Code (Anthropic), model Claude Fable 5.2 (`claude-fable-5-2`), in the Claude desktop app.
@@ -196,6 +203,8 @@ D11, the demo dummy data itself doesnt matter specifics just fit to the tasks.
 D12, BT-2 lets give an approved list of Economics, Business, Engineering, Nursing, Medical, English, History, Art, and a catch all STEM and catch all ARTS. It is just a prototype for specific tasks (granted its high fidelity) but the other options should exist to catch students in adjacent fields/give them a larger category of STEM or ARTS to fall into.
 D13, The saved jobs should behave and look like the saved scholarships"
 7. (Pasted text of GitHub's new-repository form, no other words.) "1. eneral / Repository owner and name / Owner(required)* / Repository name* / CareerOneStopUX is available. / Great repository names are short and memorable. How about ? / Description11 / 350 characters / 2. 2 / Configuration"
+8. "Walkthrough first" (button reply to Claude's question: walkthrough and critique first, or changes to the four items built without asking).
+9. "Those are good, my team will give more robust critique"
 
 ## Design artifacts provided to the agent
 
